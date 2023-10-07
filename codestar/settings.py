@@ -10,9 +10,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+import os
 from pathlib import Path
 
-import os
 import dj_database_url
 if os.path.isfile('env.py'):
     import env
@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['codestar86.herokuapp.com', '8000-jindah-djangoblog-mnkfj0kjgl7.ws-eu105.gitpod.io']
+ALLOWED_HOSTS = ['codestar86-eb7055d706c2.herokuapp.com', '8000-jindah-djangoblog-mnkfj0kjgl7.ws-eu105.gitpod.io']
 
 
 # Application definition
